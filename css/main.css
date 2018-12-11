@@ -14,7 +14,7 @@ body {
 
 .link-card {
   border-radius: 8px;
-  border: 3px;
+  border: 2px 3px;
   background-color: #dcd4cd;
   border-width: 3px;
   border-style: solid;
@@ -80,4 +80,15 @@ a {
 .link-card:hover .btn {
   background-color: #512200;
   color: #f0eee8;
+}
+
+div:nth-child(4) {
+  text-align: center;
+}
+
+dt {
+  display: inline-block;
+  width: 50%;
+  padding: 0;
+  margin: 0;
 }
