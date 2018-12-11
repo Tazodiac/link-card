@@ -7,3 +7,51 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #f0eee8;
+}
+
+.link-card {
+  border-radius: 8px;
+  border: 3px;
+  background-color: #dcd4cd;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #9a816d;
+  display: block;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  color: #512200;
+  margin: 1rem;
+}
+
+dl {
+  color: #512200;
+  margin: 1em;
+  padding: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #9a816d;
+  font-size: .875rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #785439;
+  color: #fff;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  margin: 1em;
+  padding: .4em .75em .5em;
+}
+
+dd {
+  font-style: italix;
+  display: inline-block;
+  width: 45%;
+  padding: 0;
+  margin: 0;
+}
